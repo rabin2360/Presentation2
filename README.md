@@ -65,11 +65,11 @@ IntelliJ Features to be covered:
 
         if(value == true)
         {
-            System.out.println("Here I am !");
+            System.out.println("This code will never be executed !");
         }
         else
         {
-            System.out.println("Here I am not here!");
+            System.out.println("This statement will always be executed!");
 ```
 
 On writing the code above, IntelliJ performs the static code analysis as follows:
