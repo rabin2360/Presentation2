@@ -13,4 +13,6 @@ IntelliJ Features to be covered:
     1. Maven
     2. Gradle
     3. Gant
+    
+ Testing Git in IntelliJ
 
