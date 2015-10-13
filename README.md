@@ -56,3 +56,21 @@ IntelliJ Features to be covered:
 ![Instant Code completion](https://github.com/rabin2360/Presentation2/blob/master/Presentation/InstantCodeCompletion.png)
 
  This boots the productivity of the developer.
+
+ ## IntelliJ IDEA - On-the-fly Code Analysis
+* IntelliJ performs static code analysis to determine places of probable bugs, locate dead code, improvide code structure and detect performance issues without executing the code being written. This makes it easier for developers to write the code and identify problems even before executing the code.
+* For the following code
+```
+ boolean value = false;
+
+        if(value == true)
+        {
+            System.out.println("Here I am !");
+        }
+        else
+        {
+            System.out.println("Here I am not here!");
+```
+
+On writing the code above, IntelliJ performs the static code analysis as follows:
+![On the fly code analysis]()
