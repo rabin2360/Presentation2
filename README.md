@@ -57,7 +57,7 @@ IntelliJ Features to be covered:
 
  This boots the productivity of the developer.
 
- ## IntelliJ IDEA - On-the-fly Code Analysis
+## IntelliJ IDEA - On-the-fly Code Analysis
 * IntelliJ performs static code analysis to determine places of probable bugs, locate dead code, improvide code structure and detect performance issues without executing the code being written. This makes it easier for developers to write the code and identify problems even before executing the code.
 * For the following code
 ```
