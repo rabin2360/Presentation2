@@ -50,4 +50,8 @@ IntelliJ Features to be covered:
     3. Gant
 
 ## IntelliJ IDEA - Smart Code Completion
-* IntelliJ allows the develop to be more productive by providing intelligent code completion. The intelligent code completion is supported for Java, Scala, Groovy, JavaScript, HTML, CSS amongst other programming lanaguages.
+* IntelliJ allows the developer to be more productive by providing intelligent code completion. The intelligent code completion is supported for Java, Scala, Groovy, JavaScript, HTML, CSS amongst other programming languages.
+* The code completion feature in IntelliJ helps the developers to complete names of classes, methods, fields and keywords that are within the visibility of the **current scope**. For instance,
+    [Instant Code completion]
+
+This boots the productivity of the developer.
