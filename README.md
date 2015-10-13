@@ -73,4 +73,4 @@ IntelliJ Features to be covered:
 ```
 
 On writing the code above, IntelliJ performs the static code analysis as follows:
-![On the fly code analysis]()
+![On the fly code analysis](https://github.com/rabin2360/Presentation2/blob/master/Presentation/OnTheFlyCodeAnalysis.png)
