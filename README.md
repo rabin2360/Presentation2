@@ -54,4 +54,4 @@ IntelliJ Features to be covered:
 * The code completion feature in IntelliJ helps the developers to complete names of classes, methods, fields and keywords that are within the visibility of the **current scope**. For instance,
     [Instant Code completion]
 
-This boots the productivity of the developer.
+ This boots the productivity of the developer.
