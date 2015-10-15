@@ -78,15 +78,15 @@ On writing the code above, IntelliJ performs the static code analysis as follows
 ## IntelliJ IDEA - Code Refactoring (I)
 * Refactoring allows the developers to change the written code without changing the behavior of the code. Usually the process of refactoring the code leads to a readable code which in turn makes maintaining and extending the existing code a simpler task.
 *IntelliJ IDEA provides a wide variety of code refactorings. To name a few, below is the list:
-    1. Change Class Signature
-    2. Change Method Signature
+    1. Change Method Signature
+    2. Change Class Signature
     3. Pull Members up
     4. Push Members down
     5. Replace Inheritence with Delegation
     6. Replace Method Code Duplicates
 
 ## IntelliJ IDEA - Code Refactoring (II)
-* Change Method Signature: In IntelliJ, Change Method Signature refactoring can be used to achieve a wide array of results. Below are a few of ways to Change Method Signature in IntelliJ:
+* Change Method Signature: In IntelliJ, changing the method signature can be performed in various ways. Below are a few ways to change the method signature in IntelliJ:
     1. Change the method name and return type
     2. Change parameter names and re-order parameters
     3. Add new parameters
@@ -110,6 +110,17 @@ On writing the code above, IntelliJ performs the static code analysis as follows
 * As seen from the screen shot after performing the refactoring, based on the refactoring done in the method `newMethodName`, the call to `newMethodName` in method `anotherMethodName` in class `SecondClass` changes accordingly where
     1. the position of the default values are changed accordingly for all the parameters
     2. when adding a new parameter, the default value for the new parameter is added automatically on the function call
+
+* Way to change a method signature:
+    1. In the code editor, place the cursor within the name of the method whose signature is to be changed.
+    2. Perform one of the following:
+        i. Press `Ctrl + F6`.
+        ii. Choose Refactor | Change Signature from the context menu.
+        iii. Chose Refactor | Change Signature in the main menu.
+
+## IntelliJ IDEA - Code Refactoring (III)
+* Change Class Signature: In IntelliJ, the Change Class Signature refactoring allows to turn a class into a generic and then allows the user the manipulate the parameters. When the refactoring is performed, all the class calls, implementations and overrides are corrected automatically.
+* Example of changing the class signature:
 
 
 * Maven, Gradle, Refactoring, Debugger, Decompile
