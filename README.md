@@ -99,6 +99,7 @@ On writing the code above, IntelliJ performs the static code analysis as follows
     5. a new parameter will be added by the name 'newParameter3' with a default value of 3.
 
 * Before refactoring the sample code:
+
 ![Before refactoring](https://github.com/rabin2360/Presentation2/blob/master/Presentation/beforeMethodRefactoring.png)
 
 * Process of refactoring the sample code:
