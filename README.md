@@ -86,17 +86,17 @@ On writing the code above, IntelliJ performs the static code analysis as follows
     6. Replace Method Code Duplicates
 
 ## IntelliJ IDEA - Code Refactoring (II)
-### Change Method Signature: In IntelliJ, Change Method Signature refactoring can be used to achieve a wide array of results. Below are a few of ways to Change Method Signature in IntelliJ:
-* Change the method name and return type.
-* Change parameter names and re-order parameters
-* Add new parameters
+* Change Method Signature: In IntelliJ, Change Method Signature refactoring can be used to achieve a wide array of results. Below are a few of ways to Change Method Signature in IntelliJ:
+    1. Change the method name and return type
+    2. Change parameter names and re-order parameters
+    3. Add new parameters
 
-### The following picture shows the code before Change Method Signature refactoring is performed. Using IntelliJ, in the following code,
-* the name of `oldMethodName` will be changed to `newMethodName`.
-* the order of the parameters `(int parameter1, double parameter2)` will be changed to `(double parameter2, int parameter1)`.
-* the return type of the method `oldMethodName` will be changed from `int` to `double`.
-* the parameter mame will be changed from `parameter1` to `newParameter1` and `parameter2` to `newParameter2`. The default value of newParameter1 will stay 1 and newParameter2 will stay 0.
-* a new parameter will be added by the name 'newParameter3' with a default value of 3.
+* The following picture shows the code before Change Method Signature refactoring is performed. Using IntelliJ, in the following code,
+    1. the name of `oldMethodName` will be changed to `newMethodName`.
+    2. the order of the parameters `(int parameter1, double parameter2)` will be changed to `(double parameter2, int parameter1)`.
+    3. the return type of the method `oldMethodName` will be changed from `int` to `double`.
+    4. the parameter mame will be changed from `parameter1` to `newParameter1` and `parameter2` to `newParameter2`. The default value of newParameter1 will stay 1 and newParameter2 will stay 0.
+    5. a new parameter will be added by the name 'newParameter3' with a default value of 3.
 
 [oldMethodRefactoring]
 
@@ -104,9 +104,9 @@ On writing the code above, IntelliJ performs the static code analysis as follows
 
 [newMethodRefactoring]
 
-As seen from the screen shot after performing the refactoring, based on the refactoring done in the method `newMethodName`, the call to `newMethodName` in method `anotherMethodName` in class `SecondClass` changes accordingly where
-* the position of the default values are changed accordingly for all the parameters
-* when adding a new parameter, the default value for the new parameter is added automatically on the function call
+* As seen from the screen shot after performing the refactoring, based on the refactoring done in the method `newMethodName`, the call to `newMethodName` in method `anotherMethodName` in class `SecondClass` changes accordingly where
+    1. the position of the default values are changed accordingly for all the parameters
+    2. when adding a new parameter, the default value for the new parameter is added automatically on the function call
 
 
 * Maven, Gradle, Refactoring, Debugger, Decompile
