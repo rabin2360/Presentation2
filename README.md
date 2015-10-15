@@ -98,11 +98,13 @@ On writing the code above, IntelliJ performs the static code analysis as follows
     4. the parameter mame will be changed from `parameter1` to `newParameter1` and `parameter2` to `newParameter2`. The default value of newParameter1 will stay 1 and newParameter2 will stay 0.
     5. a new parameter will be added by the name 'newParameter3' with a default value of 3.
 
-[oldMethodRefactoring]
+* Before refactoring the sample code:
+![Before refactoring](https://github.com/rabin2360/Presentation2/blob/master/Presentation/beforeMethodRefactoring.png)
 
-[Process]
-
-[newMethodRefactoring]
+* Process of refactoring the sample code:
+![How to refactor a method](https://github.com/rabin2360/Presentation2/blob/master/Presentation/processOfChangingMethodSignature.png)
+* After refactoring the sample code:
+![After refactoring](https://github.com/rabin2360/Presentation2/blob/master/Presentation/afterMethodRefactoring.png)
 
 * As seen from the screen shot after performing the refactoring, based on the refactoring done in the method `newMethodName`, the call to `newMethodName` in method `anotherMethodName` in class `SecondClass` changes accordingly where
     1. the position of the default values are changed accordingly for all the parameters
