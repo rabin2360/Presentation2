@@ -80,10 +80,9 @@ On writing the code above, IntelliJ performs the static code analysis as follows
 *IntelliJ IDEA provides a wide variety of code refactorings. To name a few, below is the list:
     1. Change Method Signature
     2. Change Class Signature
-    3. Pull Members up
-    4. Push Members down
-    5. Replace Inheritence with Delegation
-    6. Replace Method Code Duplicates
+    3. Pull Members up or push members down
+    4. Replace Inheritence with Delegation
+    5. Replace Method Code Duplicates
 
 ## IntelliJ IDEA - Code Refactoring (II)
 * Change Method Signature: In IntelliJ, changing the method signature can be performed in various ways. Below are a few ways to change the method signature in IntelliJ:
@@ -111,12 +110,13 @@ On writing the code above, IntelliJ performs the static code analysis as follows
     1. the position of the default values are changed accordingly for all the parameters
     2. when adding a new parameter, the default value for the new parameter is added automatically on the function call
 
-* Way to change a method signature:
+* Way to change a method signature in IntelliJ:
     1. In the code editor, place the cursor within the name of the method whose signature is to be changed.
     2. Perform one of the following:
         i. Press `Ctrl + F6`.
         ii. Choose Refactor | Change Signature from the context menu.
         iii. Chose Refactor | Change Signature in the main menu.
+    3. In the Change Signature dialog box, change the method visibility scope, method name, return type, manage parameters, etc. as desired.
 
 ## IntelliJ IDEA - Code Refactoring (III)
 * Change Class Signature: In IntelliJ, the Change Class Signature refactoring allows to turn a class into a generic and then allows the user the manipulate the parameters. When the refactoring is performed, all the class calls, implementations and overrides are corrected automatically.
@@ -132,5 +132,19 @@ On writing the code above, IntelliJ performs the static code analysis as follows
 ![Sample Code After Refactoring](https://github.com/rabin2360/Presentation2/blob/master/Presentation/afterClassSignatureRefactoring.png)
 
 As the picture indicates, when the sample code is refactored to change the class signature, the reference to the class `FirstClass` in the `SecondClass` also changes to `FirstClass<String, Double> myClass` from `FirstClass myClass`. When refactoring the code, `classParameter1` was declared as `String` and `classParameter2` was declared as `Double`. 
+
+* * Way to change a class signature in IntelliJ:
+      1. In the code editor, place the cursor within the name of the class whose signature is to be changed.
+      2. Perform one of the following:
+          i. Press `Ctrl + F6`.
+          ii. Choose Refactor | Change Signature from the context menu.
+          iii. Chose Refactor | Change Signature in the main menu.
+      3. In the Change Class Signature dialog, add, remove or edit the name and the default value of parameters as desired.
+
+## IntelliJ IDEA - Code Refactoring (IV)
+* Pulling and pushing members: The Pull Members Up refactoring allows subclass members to be pulled into the superclass or an interface, or pulling an interface to a superinterface. The Push Members Down refactoring pushes the class members to subclasses or subinterface. When pushing down, the members are relocated to direct subclasses/interfaces only.
+* Example of Pulling Members Up refactoring:
+
+
 
 * Maven, Gradle, Refactoring, Debugger, Decompile
