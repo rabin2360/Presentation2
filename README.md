@@ -73,7 +73,18 @@ IntelliJ Features to be covered:
 ```
 
 On writing the code above, IntelliJ performs the static code analysis as follows:
+
 ![On the fly code analysis](https://github.com/rabin2360/Presentation2/blob/master/Presentation/OnTheFlyCodeAnalysis.png)
+
+* For the following code
+```
+        int x = 6;
+        x = x + x;
+```
+
+On writing the code above, IntelliJ performs the static code analysis as follows:
+
+![On the fly code analysis part 2](https://github.com/rabin2360/Presentation2/blob/master/Presentation/OnTheFlyCodeAnalysisPart2.png)
 
 ## IntelliJ IDEA - Code Refactoring (I)
 * Refactoring allows the developers to change the written code without changing the behavior of the code. Usually the process of refactoring the code leads to a readable code which in turn makes maintaining and extending the existing code a simpler task.
