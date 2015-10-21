@@ -113,9 +113,9 @@ On writing the code above, IntelliJ performs the static code analysis as follows
 * Way to change a method signature in IntelliJ:
     1. In the code editor, place the cursor within the name of the method whose signature is to be changed.
     2. Perform one of the following:
-        i. Press `Ctrl + F6`.
-        ii. Choose Refactor | Change Signature from the context menu.
-        iii. Chose Refactor | Change Signature in the main menu.
+        * Press `Ctrl + F6`.
+        * Choose Refactor | Change Signature from the context menu.
+        * Chose Refactor | Change Signature in the main menu.
     3. In the Change Signature dialog box, change the method visibility scope, method name, return type, manage parameters, etc. as desired.
 
 ## IntelliJ IDEA - Code Refactoring (III)
