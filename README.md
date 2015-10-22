@@ -1,7 +1,6 @@
 # Presentation 2
 Presentation 2 for CSCI 5828
 
-IntelliJ Features to be covered:
 ## Introduction
 * IntelliJ IDEA is a Java IDE (Integrated Development Environment) developed by JetBrains. IntelliJ IDEA offers supports for development frameworks, mobile development, developer tools and web development.
 * Some of the development frameworks, mobile development platoforms, developer's tools and web development languages supported by IntelliJ IDEA IDE are:
@@ -254,13 +253,26 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
         * in the 'Delegate members' area, select the methods that will be delegated through the inner class.
         * finally, select 'Refactor'.
        
-## IntelliJ IDEA - Git Integration
+## IntelliJ IDEA - Git Integration (I)
 * IntelliJ IDEA has Git integration and allows the git functions to be performed from the IDE itself. In order to get started with git in IntelliJ IDE, the git executable has to be downloaded to the local machine.
 * Git set up in IntelliJ:
     * Navigate to File | Settings. This will display the Settings window.
     * In Settings window, under Version Control, select Git. 
     * Under Settings | Version Control | Git, specify the path to the git executable.
+    * In Settings window, under Version Control, select GitHub.
+    * Under Settings | Version Control | GitHub, choose the Authorization type preferred and enter credentials.
 
-testing, another testing, another test
+## IntelliJ IDEA - Git Integration (II)
+* Tracking unversioned files: After initializing the Git project, it allows the user to track files or keep the files in the project unversioned. 
+* IntelliJ provides the Version Control window (Alt + 9), that has the Local Changes tab. Under Local Changes tab, all the files of the project that are tracked and untracked are differentiated. The following image shows the Version Control window with Local Changes tab selected. Under Local Changes tab, the untracked files are listed under Unversioned Files and the tracked Files are listed under the moniker Default. 
+![Local Changes Window](https://github.com/rabin2360/Presentation2/blob/master/Presentation/localChangesTrackedUntrackedFiles.png)
+* In order to track the unversioned files, in the Local Changes tab, select the Unversioned Files category. Under Unversioned Files category, select the file to be tracked. Right click the file name and select Add to VCS. In IntelliJ, files that are untracked and present locally appear brown in color. When the untracked files start getting tracked, they appear green in color. Another way to track a file is, select the untracked files that appear in the Project Tool window, right click the files, select Git | Add. This converts untracked files to tracked.
+![Tracking A File](https://github.com/rabin2360/Presentation2/blob/master/Presentation/processOfTrackingAFile.png)
+* In order to untrack a file, right click the file in the Project Tool window and select Git | Revert. The color of the file changes to brown in the Project Tool window indicating that the file is present locally and untracked.
+![Untracking A File](https://github.com/rabin2360/Presentation2/blob/master/Presentation/revertingTrackedFile.png)
 
+
+After initializing the Git repository for the project, open the Version Control window (Alt + 9).
+* In the Version Control window, navigate to the Local Changes tab.
+* Under the Local
 * Maven, Gradle, Refactoring, Debugger, Decompile
