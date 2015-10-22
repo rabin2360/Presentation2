@@ -158,7 +158,7 @@ As the picture indicates, when the sample code is refactored to change the class
 
 ![Sample Code Before Refactoring](https://github.com/rabin2360/Presentation2/blob/master/Presentation/beforePushDownRefactoring.png)
 
-* Sample code after Push Members Down refactoring:
+* Example of Push Members Down refactoring:
 
 ![Sample Code After Refactoring](https://github.com/rabin2360/Presentation2/blob/master/Presentation/afterPushDownRefactoring.png)
 
@@ -166,4 +166,93 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
 
 * Similarly, the methods that are present in the child class can easily be pulled up by the super class (or pullling methods from interface to superinterface). This is achieved by using Push Members Up Refactoring provided by the IntelliJ IDE.
 
+* Way to pull/push methods in IntelliJ:
+      1. In the code editor, place the cursor within the name of the class whose method is being push down or pulled up.
+      2. From the menu select Refactor | Pull Members Up or Refactor | Push Members Down.
+      3. In the Pull Members Up or Push Members Down dialog box, select the classes that are to be pulled up or pushed down.
+      4. To move a method as abstract, select the check box in the column Make abstract.
+      5. Click Refactor to pull or push a method.
+      
+## IntelliJ IDEA - Code Refactoring (V)
+* Replace inheritence with delegation: Replacing inheritence with delegation can substantially improve the class design if the subclass does not extend the functionality of the superclass. IntelliJ provides a way to refactor the code such that there is removal of inheritence from the code design. The functionality of the superclass is preserved when refactoring.
+* The following code uses inheritence. 
+```
+    public abstract class ParentClass
+    {
+        public void ParentingMethod()
+        {
+            //code here
+        }
+
+        public abstract void ParentRelationship();
+
+    }
+
+    public class ChildClass extends ParentClass
+    {
+
+        public void ChildActivityMethod()
+        {
+            //code here
+        }
+        
+        public void ParentRelationship()
+        {
+            //parenting relationship code
+        }
+    }
+```
+
+* In the above code, the `ChildClass` extends the `ParentClass` and implements the abstract method `ParentRelationship()`. Using IntelliJ, the aforementioned code can be refactored as follows, where the integrity of the parent class stays the same. However, IntelliJ creates a private inner class in the `ChildClass`. This private inner class inherits from the superclass. Selected methods from the `ParentClass` are invoked in the private inner class. After refactoring the code looks something like below:
+```
+    public abstract class ParentClass
+    {
+        public void ParentingMethod()
+        {
+            //code here
+        }
+
+        public abstract void ParentRelationship();
+
+    }
+
+    public class ChildClass {
+
+        private final InnerClassName parentClass = new InnerClassName();
+
+        public void ChildActivityMethod()
+        {
+            //code here
+        }
+
+        public ParentClass getParentClass() {
+            return parentClass;
+        }
+
+        public void ParentRelationship() {
+            parentClass.ParentRelationship();
+        }
+
+        private class InnerClassName extends ParentClass {
+            public void ParentRelationship()
+            {
+                //parenting relationship code
+            }
+        }
+    }
+```
+
+* From the code excerpt, it is observed, that the new inner class created in the `ChildClass` is `InnerClassName` that invokes the method `ParentRelationShip()`. Hence, `InnerClassName` is used to delegate the task of calling `ParentRelationShip()` from `ChildClass` to `ParentClass`. Inheritence is not used to call `ParentRelationShip()` in this case.
+
+* When refactoring, IntelliJ creates a private inner class that inherits the former superclass. Following that, selected methods of the parent class are invoked via the new inner class.
+
+* Way to replace inheritence with delegation in IntelliJ:
+      1. In the code editor, place the cursor in the child class method name.
+      2. From the menu select Refactor | Replace Inheritence with Delegation.
+      3. In the Replace Inheritence with Delegation box, 
+        * specify the parent object in the field 'Replace with delegation inheritence from'.
+        * in the 'Inner Class Name' field, specify the name for the inner class.
+        * in the 'Delegate members' area, select the methods that will be delegated through the inner class.
+        * finally, select 'Refactor'.
+       
 * Maven, Gradle, Refactoring, Debugger, Decompile
