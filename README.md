@@ -274,6 +274,24 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
 
 ![Untracking A File](https://github.com/rabin2360/Presentation2/blob/master/Presentation/revertingTrackedFile.png)
 
+## IntelliJ IDEA - Git Integration (III)
+* IntelliJ IDE and Git integration means the statuses of the file in a project a tracked compared to the last commit. Depending on the status of the file, the files in a project a different in color.
+* Similarly, each line in a file is also tracked. When a file is updated by adding a line, removing a life or editing a line, IntelliJ uses a color scheme to indicate the status of each line by coloring the gutter a different color.
+* For line status in an editor:
+    * The following color on the left gutter indicates the line has been modified since last synchronization.
+    * The following color on the left gutter indicates the line has been added since the file was last synchronized.
+    * The following sign on the left gutter indicates, a line has been deleted since last synchronization.
+
+* Pulling/pushing file
+* File compare
+* 
+
+
+
+
+This line will be edited.
+This line will be deleted.
+
 
 After initializing the Git repository for the project, open the Version Control window (Alt + 9).
 * In the Version Control window, navigate to the Local Changes tab.
