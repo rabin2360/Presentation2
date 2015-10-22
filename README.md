@@ -93,7 +93,6 @@ On writing the code above, IntelliJ performs the static code analysis as follows
     2. Change Class Signature
     3. Pull Members up or push members down
     4. Replace Inheritence with Delegation
-    5. Replace Method Code Duplicates
 
 ## IntelliJ IDEA - Code Refactoring (II)
 * Change Method Signature: In IntelliJ, changing the method signature can be performed in various ways. Below are a few ways to change the method signature in IntelliJ:
@@ -255,4 +254,12 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
         * in the 'Delegate members' area, select the methods that will be delegated through the inner class.
         * finally, select 'Refactor'.
        
+## IntelliJ IDEA - Git Integration
+* IntelliJ IDEA has Git integration and allows the git functions to be performed from the IDE itself. In order to get started with git in IntelliJ IDE, the git executable has to be downloaded to the local machine.
+* Git set up in IntelliJ:
+    * Navigate to File | Settings. This will display the Settings window.
+    * In Settings window, under Version Control, select Git. 
+    * Under Settings | Version Control | Git, specify the path to the git executable.
+
+
 * Maven, Gradle, Refactoring, Debugger, Decompile
