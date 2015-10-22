@@ -261,5 +261,6 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
     * In Settings window, under Version Control, select Git. 
     * Under Settings | Version Control | Git, specify the path to the git executable.
 
+testing
 
 * Maven, Gradle, Refactoring, Debugger, Decompile
