@@ -254,13 +254,17 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
         * finally, select 'Refactor'.
        
 ## IntelliJ IDEA - Git Integration (I)
-* IntelliJ IDEA has Git integration and allows the git functions to be performed from the IDE itself. In order to get started with git in IntelliJ IDE, the git executable has to be downloaded to the local machine.
-* Git set up in IntelliJ:
-    * Navigate to File | Settings. This will display the Settings window.
-    * In Settings window, under Version Control, select Git. 
-    * Under Settings | Version Control | Git, specify the path to the git executable.
-    * In Settings window, under Version Control, select GitHub.
-    * Under Settings | Version Control | GitHub, choose the Authorization type preferred and enter credentials.
+* IntelliJ IDEA has Git integration and allows the git functions to be performed from the IDE itself. IntelliJ allows to either create a local Git repository or push the files in the local Git repository to be pushed to GitHub.
+* If local Git repository is preferred, IntelliJ allows the user to either clone the repository from GitHub and use locally or create a completely new project that is version controlled by Git locally.
+* Git also allows the project being held locally and version controlled by Git to be pushed to remote repositories like GitHub.
+* However, in order to get started with Git in IntelliJ IDE, the Git executable has to be downloaded to the local machine.
+* The following method walks through the steps of creating a local Git repository:
+    * Open the project that needs to version controlled.
+    * Navigate to VCS | Import into Version Control | Create Git Repository.
+    * In the Dialog Box that opens, specify the directory where Git local repository is to be created.
+    * As needed, track the files of the project that need versioning.
+    
+* To explore ways to clone a remote Git repository, [click here] (https://www.jetbrains.com/idea/help/setting-up-a-local-git-repository.html).
 
 ## IntelliJ IDEA - Git Integration (II)
 * Tracking unversioned files: After initializing the Git project, it allows the user to track files or keep the files in the project unversioned. 
@@ -293,7 +297,6 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
     
     ![Filed edited after committing](https://github.com/rabin2360/Presentation2/blob/master/Presentation/FileStatusAfterEditing.png)
         
-    
 * Similarly, each line in a file is also tracked. When a file is updated by adding a line, removing a life or editing a line, IntelliJ uses a color scheme to indicate the status of each line by coloring the gutter a different color.
 * For line status in an editor:
     * The following picture shows the lines before editing, deleting and adding a line in the IntelliJ IDE.
@@ -312,6 +315,35 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
     
     ![Gutter color for deleting line](https://github.com/rabin2360/Presentation2/blob/master/Presentation/GutterColorDeletingLine.png)
     
+##IntelliJ IDEA - Git Integration (IV)
+* Pushing/Pulling file(s) from GitHub using IntelliJ IDE: When committing a change from IntelliJ IDE, users have the option of either pushing the change to the local repository or to the remote repository. IntelliJ supports both the functions.
+* In order to commit the changes to the local repository or remote repository,
+    * Open the version control tool by performing one of the listed actions: Alt + 9 or following the sequence: View | Tools Windows | Version Control.
+    * On the Local Changes tab window, display select the files to commit.
+    [Picture]
+    * Open the Commit Changes dialog box by performing one of the following actions:
+        * On the tool window toolbar, select Commit Changes.
+        * On the main menu, select VCS | Commit Changes.
+        * On the main menu, select VCS | Git | Commit File.
+    * The Commit Changes dialog box for IntelliJ looks like below where it allows the user to specify the author, perform actions like reformatting the code, performing code analysis, check to-do list, etc. before making the code commit. The Commit Changes Dialog box also contains the option to amend a commit, which erases the previous commit and replaces it with the new commit being made. The Commit Changes Dialog box looks like below:
+     
+     ![Commit Changes Dialog Box](https://github.com/rabin2360/Presentation2/blob/master/Presentation/CommitChangesDialogBox.png)
+     
+     * In the Commit Changes dialog box,  it also allows to compare the newly edited file to be compared to the last committed file. It shows areas where lines have been edited, added or deleted. Following pictures show how difference comparison works in IntelliJ:
+     
+     The following picture shows difference comparison when lines in the previously committed file have been edited:
+     ![Show diff editing lines] (https://github.com/rabin2360/Presentation2/blob/master/Presentation/DiffCompareEditedLines.png)
+
+     The following picture shows difference comparison when lines in the previously committed file have been added:
+     ![Show diff new lines] (https://github.com/rabin2360/Presentation2/blob/master/Presentation/DiffCompareNewLines.png)
+                
+        [Show diff adding lines]
+        
+        * Format code:
+        
+        * Compare the difference between the modified file and the previously commited file:
+        * Amend a commit (if needed):
+        
 
 * Pulling/pushing file
 * File compare
