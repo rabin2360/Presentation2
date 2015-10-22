@@ -300,16 +300,16 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
     
     ![Gutter color before editing, deleting](https://github.com/rabin2360/Presentation2/blob/master/Presentation/GutterColorStart.png)
     
-    * The following color on the left gutter indicates the line has been modified since last synchronization.
+    * After committing a file, if a line in the committed file is change, the left gutter in the IntelliJ IDE turns blue in color as indicated by the following picture.
     
     ![Gutter color for modified line](https://github.com/rabin2360/Presentation2/blob/master/Presentation/GutterColorEditingLine.png)
     
-    * The following color on the left gutter indicates the line has been added since the file was last synchronized.
+    * After committing a file, if a line is added to the file, the left gutter in the IntelliJ IDE turns green in color as indicated by the following picture.
     
     ![Gutter color for adding a line](https://github.com/rabin2360/Presentation2/blob/master/Presentation/GutterColorNewLine.png)
         
-    * The following sign on the left gutter indicates, a line has been deleted since last synchronization.
-
+    *  After committing a file, if a line is deleted from the file, the left gutter in the IntelliJ IDE displays a triangular sign as indicated by the following picture.
+    
     ![Gutter color for deleting line](https://github.com/rabin2360/Presentation2/blob/master/Presentation/GutterColorDeletingLine.png)
     
 
