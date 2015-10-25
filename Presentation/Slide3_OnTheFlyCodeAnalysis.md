@@ -27,4 +27,4 @@ On writing the code above, IntelliJ performs the static code analysis as follows
 
 ![On the fly code analysis part 2](https://github.com/rabin2360/Presentation2/blob/master/Presentation/OnTheFlyCodeAnalysisPart2.png)
 
-[Previous](Slide2_SmartCodeCompletion) [Next](Slide4_CodeRefactoringI)
+[Previous](Slide2_SmartCodeCompletion.md) [Next](Slide4_CodeRefactoringI.md)
