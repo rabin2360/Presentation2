@@ -80,4 +80,4 @@
         * in the 'Delegate members' area, select the methods that will be delegated through the inner class.
         * finally, select 'Refactor'.
        
-[Previous](Slide7_CodeRefactoring.md)  [Next](Slide9_GitIntegrationI.md)
+[Previous](Slide7_CodeRefactoringIV.md)  [Next](Slide9_GitIntegrationI.md)
