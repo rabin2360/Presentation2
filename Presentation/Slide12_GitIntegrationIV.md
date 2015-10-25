@@ -1,7 +1,7 @@
 ##IntelliJ IDEA - Git Integration (IV)
 * Pushing files to a local/remote repository using IntelliJ IDE: When committing a change from IntelliJ IDE, users have the option of either pushing the change to the local repository or to the remote repository. IntelliJ supports both functionality.
 * In order to commit the changes to the local repository or remote repository,
-    * Open the version control tool by performing one of the listed actions: Alt + 9 or following the sequence: View | Tools Windows | Version Control.
+    * Open the version control tool by performing one of the listed actions: Alt + 9 or following the sequence: **View | Tools Windows | Version Control**.
     * On the Local Changes tab window, display select the files to commit.
     [Picture]
     * Open the Commit Changes dialog box by performing one of the following actions:
