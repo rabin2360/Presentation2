@@ -7,4 +7,6 @@
     * Configuring the debugger
     * Inline Debugging
     * Exploring Frames
+
+
 [Previous](Slide13_GitIntegrationV.md)  [Next](Slide15_DebuggerII.md)
