@@ -414,8 +414,13 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
 ##IntelliJ IDEA - Debugging (IV)
 * Frames Window: When running the debugging session in IntelliJ idea, the local variables are created inside frames (also known as activation records) and pushed onto a stack. Hence, the frames that are created later are at the top of the stack. For instance, if a method call is made from the main method, the frames in IntelliJ will display both the main method and the method that is called from the main method. However, the called method is listed above the main method. On clicking the main method, all the variables that are present in the main method are displayed while, on clicking the called method, the variables that are visible within the scope of the called method are displayed in the Variables window.
 * For the following code:
+<<<<<<< HEAD
 ```   
  public static void main (String [] args)
+=======
+``` 
+public static void main (String [] args)
+>>>>>>> 8d06518fb9842d4486b8854a6c4eb4802bf20e08
        {
            int mainVariable = 0;
    
