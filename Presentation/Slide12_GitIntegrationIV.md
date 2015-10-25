@@ -6,8 +6,8 @@
     [Picture]
     * Open the Commit Changes dialog box by performing one of the following actions:
         * On the tool window toolbar, select Commit Changes.
-        * On the main menu, select VCS | Commit Changes.
-        * On the main menu, select VCS | Git | Commit File.
+        * On the main menu, select **VCS | Commit Changes**.
+        * On the main menu, select **VCS | Git | Commit File**.
     * The Commit Changes dialog box for IntelliJ looks like below where it allows the user to specify the author, perform actions like reformatting the code, performing code analysis, check to-do list, etc. before making the code commit. The Commit Changes Dialog box also contains the option to amend a commit, which erases the previous commit and replaces it with the new commit being made. The Commit Changes Dialog box looks like below:
      
      ![Commit Changes Dialog Box](https://github.com/rabin2360/Presentation2/blob/master/Presentation/CommitChangesDialogBox.png)
