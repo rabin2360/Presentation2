@@ -11,4 +11,4 @@
     
 * To explore ways to clone a remote Git repository, [click here] (https://www.jetbrains.com/idea/help/setting-up-a-local-git-repository.html).
 
-[Previous](Slide8_CodeRefacotringV.md) [Next](Slide10_GitIntegrationII.md)
+[Previous](Slide8_CodeRefactoringV.md) [Next](Slide10_GitIntegrationII.md)
