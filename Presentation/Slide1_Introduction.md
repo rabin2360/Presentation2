@@ -12,4 +12,4 @@
     * Git Integration
     * Debugging
     
-[Next](/Slide2_SmartCodeCompletion)
+[Next](/Slide2_SmartCodeCompletion.md)
