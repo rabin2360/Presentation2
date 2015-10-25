@@ -414,7 +414,8 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
 ##IntelliJ IDEA - Debugging (IV)
 * Frames Window: When running the debugging session in IntelliJ idea, the local variables are created inside frames (also known as activation records) and pushed onto a stack. Hence, the frames that are created later are at the top of the stack. For instance, if a method call is made from the main method, the frames in IntelliJ will display both the main method and the method that is called from the main method. However, the called method is listed above the main method. On clicking the main method, all the variables that are present in the main method are displayed while, on clicking the called method, the variables that are visible within the scope of the called method are displayed in the Variables window.
 * For the following code:
-```    public static void main (String [] args)
+```   
+ public static void main (String [] args)
        {
            int mainVariable = 0;
    
@@ -440,3 +441,9 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
 
 * Selecting the `anotherMethod()` frame, the following values are displayed in the Variables window.
 ![Selecting the anotherMethod frame](https://github.com/rabin2360/Presentation2/blob/master/Presentation/SelectingAnotherMethodFrame.png)
+
+##Conclusion
+* IntelliJ is a comprehensive IDE with a lot of features. In this presentation, the main areas focused are static code analysis, on the fly code analysis, code refactoring, git integration and debugging.
+* IntelliJ aims to make the life of the developers easier by helping developer's overcome at of accidental difficulties. Debugging, on the fly code analysis and static code analysis greatly enhance the ability of a programmer to write code without hinderance. They help the developer avoid syntactic and logical mistakes.
+* Similarly, git integration and code refactoring greatly boost the productivity of code production. Git integration stores different versions of the code while code refactoring ensures that developer's in future are easily able to under the code design. Both of them truly streamline the process of code development.
+* Like Fred Brooks pointed out, IntelliJ is one of tools available in the wide array of tools available to achieve that goal of one magnitude gain in productivity.
