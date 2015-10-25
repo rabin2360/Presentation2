@@ -360,19 +360,42 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
         * No Fast Forward: This allows the user to perform the fetch and merge operation where Git fast forward operation is not performed. To learn more about Git fast forward [click here](http://ariya.ofilabs.com/2013/09/fast-forward-git-merge.html).
         * Squash Commit: This allows the user to perform the Git squash function. Using squash commit, all the different branches are merged to the current branch as a single commit on top of the current HEAD. It exploits the Git squash feature.
         * Add log information: Selecting this option allows the user to augment the log information when pulling information. It allows the user to enter a one-line description in addition to capturing the name of the branches being merged.
- 
-        [Show diff adding lines]
-        
-        * Format code:
-        
-        * Compare the difference between the modified file and the previously commited file:
-        * Amend a commit (if needed):
-        
 
-* Pushing file
+##IntelliJ IDEA - Debugger (I)
+* When writing a program, programmers usually run into three kinds of errors - syntax, runtime and logic errors.
+* The syntax errors are caught by the IDE. They are very easy to find and fix.
+* The logical errors are very difficult to find as the IDE does not recognize the fault in the logic. This is when using debugger in the IDE becomes extremely handy.
+* Debugging features in IntelliJ IDE are comprehensive. Among all the features, the following will be discussed at length in the presentation.
+    * Break points/ conditional breakpoints
+    * Configuring the debugger
+    * Inline Debugging
+    * Exploring Frames
 
+##IntelliJ IDEA - Debugger (II)
+* Break point/conditional breakpoints: IntelliJ allows breaks to be set in the executable lines of code. IntelliJ has several types of breakpoints that can be used according to the debugging needs. When a breakpoint is set in the code, it is marked with a red stripe, after the breakpoint has been reached, the red strip changes to blue.
+* The following are the different types of breakpoints:
+    * Line Breakpoint: The breakpoints are assigned to lines of code. They are represented by a red dot with a check mark within it. For instance,
+    
+      ![Line Breakpoint] (https://github.com/rabin2360/Presentation2/blob/master/Presentation/LineBreakPoint.png)
+      
+    * Temporary Line Breakpoint: The breakpoints are assigned to lines of code but they are removed after being hit. They are represented by a red dot circle with 1 displayed within the circle.
+    
+      ![Temporary Line Breakpoint] (https://github.com/rabin2360/Presentation2/blob/master/Presentation/TemporaryBreakPoint.png)
+     
+    * Method Breakpoint: Method breakpoints stop the program when entering and exiting the method. They allow debugging by attaching the breakpoint to a method name. Using method breakpoint can significantly slow down the application. The method breakpoints are represented by a red dot with four smaller black dots in the red dot.
 
-After initializing the Git repository for the project, open the Version Control window (Alt + 9).
-* In the Version Control window, navigate to the Local Changes tab.
-* Under the Local
-* Maven, Gradle, Refactoring, Debugger, Decompile
+      ![Method Breakpoint] (https://github.com/rabin2360/Presentation2/blob/master/Presentation/MethodBreakPoint.png)
+      
+    * Exception Breakpoint: This breakpoint is triggered when the specified exception is triggered in the program. IntelliJ IDEA provides exception breakpoints for Java and JavaScript. The exception breakpoint is represented by a red dot with a lightning bolt within the red dot.
+    
+      ![Exception Breakpoint] (https://github.com/rabin2360/Presentation2/blob/master/Presentation/ExceptionBreakPoint.png)
+      
+    * Field Watchpoint: A watchpoint is a special breakpoint that stops the application whenever the avlaue of the given expression changes. It is represented by a red dot that encircles a dash sign in it. If `test` is the variable being watched, before debugging, it looks like below
+    
+      ![Field WatchPoint - Before] (https://github.com/rabin2360/Presentation2/blob/master/Presentation/BeforeWatchPointTriggered.png) 
+    
+    After debugging, it looks like below:
+        
+      ![Field Watchpoint - After] (https://github.com/rabin2360/Presentation2/blob/master/Presentation/AfterWatchPointTrigger.png) 
+      
+    * JavaScript/Flex/PHP Breakpoints: IntelliJ also allows to set breakpoints in JavaScript, Flex and PHP files. They are identical to the line breakpoints that are set in Java.  
