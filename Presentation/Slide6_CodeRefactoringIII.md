@@ -21,3 +21,4 @@ As the picture indicates, when the sample code is refactored to change the class
           * Chose **Refactor | Change Signature** in the main menu.
       3. In the Change Class Signature dialog, add, remove or edit the name and the default value of parameters as desired.
 
+[Previous](Slide5_CodeRefactoringII) [Next](Slide7_CodeRefactoringIV)
