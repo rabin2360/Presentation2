@@ -22,4 +22,4 @@
         * Squash Commit: This allows the user to perform the Git squash function. Using squash commit, all the different branches are merged to the current branch as a single commit on top of the current HEAD. It exploits the Git squash feature.
         * Add log information: Selecting this option allows the user to augment the log information when pulling information. It allows the user to enter a one-line description in addition to capturing the name of the branches being merged.
 
-[Previous](Slide12_GitIntegrationIV.md)
+[Previous](Slide12_GitIntegrationIV.md) [Next](Slide14_DebuggerI.md)
