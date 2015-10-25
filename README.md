@@ -394,8 +394,8 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
     
       ![Field WatchPoint - Before] (https://github.com/rabin2360/Presentation2/blob/master/Presentation/BeforeWatchPointTriggered.png) 
     
-    After debugging, it looks like below:
+       After debugging, it looks like below:
         
-      ![Field Watchpoint - After] (https://github.com/rabin2360/Presentation2/blob/master/Presentation/AfterWatchPointTrigger.png) 
+       ![Field Watchpoint - After] (https://github.com/rabin2360/Presentation2/blob/master/Presentation/AfterWatchPointTrigger.png) 
       
     * JavaScript/Flex/PHP Breakpoints: IntelliJ also allows to set breakpoints in JavaScript, Flex and PHP files. They are identical to the line breakpoints that are set in Java.  
