@@ -4,4 +4,4 @@
 * Similarly, git integration and code refactoring greatly boost the productivity of code production. Git integration stores different versions of the code while code refactoring ensures that developer's in future are easily able to under the code design. Both of them truly streamline the process of code development.
 * Like Fred Brooks pointed out, IntelliJ is one of tools available in the wide array of tools available to achieve that goal of one magnitude gain in productivity.
 
-[Previous](Slide17_DebuggingIV.md)
+[Previous](Slide17_DebuggerIV.md)
