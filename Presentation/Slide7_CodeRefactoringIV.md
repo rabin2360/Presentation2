@@ -18,4 +18,6 @@ For the aforementioned example, there exists a class `ParentClass` which is inhe
       3. In the Pull Members Up or Push Members Down dialog box, select the classes that are to be pulled up or pushed down.
       4. To move a method as abstract, select the check box in the column Make abstract.
       5. Click Refactor to pull or push a method.
+
+
 [Previous](Slide6_CodeRefactoringIII.md) [Next](Slide8_CodeRefactoringV.md)
