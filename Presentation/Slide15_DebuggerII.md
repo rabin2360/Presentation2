@@ -21,7 +21,7 @@
     
       ![Field WatchPoint - Before] (https://github.com/rabin2360/Presentation2/blob/master/Presentation/BeforeWatchPointTriggered.png) 
     
-       After debugging, it looks like below:
+       When the debugger hits the watched variable, it looks like below:
         
        ![Field Watchpoint - After] (https://github.com/rabin2360/Presentation2/blob/master/Presentation/AfterWatchPointTrigger.png) 
       
