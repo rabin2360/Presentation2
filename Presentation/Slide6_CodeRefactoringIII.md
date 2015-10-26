@@ -1,5 +1,5 @@
 ## IntelliJ IDEA - Code Refactoring (III)
-* Change Class Signature: In IntelliJ, the Change Class Signature refactoring allows to turn a class into a generic and then allows the user the manipulate the parameters. When the refactoring is performed, all the class calls, implementations and overrides are corrected automatically.
+* Change Class Signature: In IntelliJ, the Change Class Signature refactoring allows to turn a class into a generic (i.e. `MethodName <Generic type>` and then allows the user the manipulate the parameters. When the refactoring is performed, all the class calls, implementations and overrides are corrected automatically.
 
 * Sample code before refactoring:
 ![Sampe Code Before Refactoring](https://github.com/rabin2360/Presentation2/blob/master/Presentation/beforeClassSignatureRefactoring.png)
