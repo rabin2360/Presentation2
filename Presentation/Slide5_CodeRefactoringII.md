@@ -8,8 +8,8 @@
     1. the name of `oldMethodName` will be changed to `newMethodName`.
     2. the order of the parameters `(int parameter1, double parameter2)` will be changed to `(double parameter2, int parameter1)`.
     3. the return type of the method `oldMethodName` will be changed from `int` to `double`.
-    4. the parameter mame will be changed from `parameter1` to `newParameter1` and `parameter2` to `newParameter2`. The default value of newParameter1 will stay 1 and newParameter2 will stay 0.
-    5. a new parameter will be added by the name 'newParameter3' with a default value of 3.
+    4. the parameter name will be changed from `parameter1` to `newParameter1` and `parameter2` to `newParameter2`. The default value of `newParameter1` will stay 1 and `newParameter2` will stay 0.
+    5. a new parameter will be added by the name `newParameter3` with a default value of 3.
 
 * Before refactoring the sample code:
 
